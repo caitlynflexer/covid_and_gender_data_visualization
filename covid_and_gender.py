@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 
 app = Dash(__name__)
-
+server = app.server
 
 def create_map():
     df = pd.read_csv('deaths.csv') 
